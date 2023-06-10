@@ -317,6 +317,11 @@ export default {
             label: "customized",
             options: [
               {
+                label: "VVTSS (By Linzjian666)",
+                value:
+                  "https://raw.githubusercontent.com/linzjian666/Proxies/main/ruleset/ACL4SSR.ini"
+              },
+              {
                 label: "Maying",
                 value:
                   "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/customized/maying.ini"
