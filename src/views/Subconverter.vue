@@ -296,7 +296,18 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        customBackend: {
+          "本地局域网版后端": "http://127.0.0.1:25500/sub?",
+          "Linzjian666提供": "https://sub-api.linzjian666vv.ml/sub?",
+          "subconverter作者提供": "https://sub.xeton.dev/sub?",
+          "sub-web作者提供": "https://api.wcc.best/sub?",
+        },
+        backendOptions: [
+          { value: "http://127.0.0.1:25500/sub?" },
+          { value: "https://sub-api.linzjian666vv.ml/sub?" },
+          { value: "https://sub.xeton.dev/sub?" },
+          { value: "https://api.wcc.best/sub?" },
+        ],
         remoteConfig: [
           {
             label: "VVTSS(By Linzjian666)",
