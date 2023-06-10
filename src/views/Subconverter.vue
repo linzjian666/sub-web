@@ -304,10 +304,10 @@ export default {
         ],
         remoteConfig: [
           {
-            label: "VVTSS(By Linzjian666)",
+            label: "VVTSS (By Linzjian666)",
             options: [
               {
-                label: "VVTSS(By Linzjian666)",
+                label: "VVTSS (By Linzjian666)",
                 value:
                   "https://raw.githubusercontent.com/linzjian666/Proxies/main/VVTSS.ini"
               }
